@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			.ddd{
+			
+				 height: 30px;
+      width: 100px;
+      position: absolute;
+      left: 20px;
+      top: 20px;
+			}
+			input{
+			display: none;	
+			
+			}
+			label{
+				width:100px;
+				height:30px;
+				background:palegreen;
+				border-radius:30px ;
+				position: absolute;
+			}
+		label:after{
+				content: "no";
+				width:25px;
+				height:25px;
+				
+				border-radius: 50px;
+				position: absolute;
+				left:66px;
+				top:3px;
+			
+			}
+			label:before{
+				content: "";
+				width:25px;
+				height:25px;
+				background:white;
+				border-radius: 50px;
+				position: absolute;
+				font-size:12px;
+				left:2px;
+				top:2px;
+			    transition: 0.5s;
+			}
+			input:checked+label:before{
+				left:66px;
+               background: white;
+			}
+		    input:checked+label:after{
+				content: "OFF";
+                left: 4px;
+			}
+			  input:checked+label {
+           background:red;
+        transition: 0.5s;
+    }
+ 
+
+  
+			
+		</style>
+	</head>
+	<body>
+		<div class="ddd">
+			<input type="checkbox" id="box" />
+			 <label for="box"></label>
+
+		</div>
+	</body>
+</html>

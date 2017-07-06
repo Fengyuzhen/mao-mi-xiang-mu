@@ -1,0 +1,43 @@
+.sec-luntan {
+  width: 684px;
+  min-height: 400px;
+  background: white;
+  margin: 0 auto;
+}
+.sec-luntan > p {
+  width: 668px;
+  height: 40px;
+  margin: 0 auto;
+  line-height: 40px;
+  font-size: 12px;
+}
+.sec-luntan > p > span {
+  padding-left: 30px;
+}
+.sec-luntan > input {
+  width: 668px;
+  height: 200px;
+  background: wheat;
+  margin-left: 10px;
+}
+.sec-luntan > button {
+  float: right;
+  width: 60px;
+  height: 30px;
+  background: paleturquoise;
+  margin-right: 20px;
+}
+.sec-luntan > ul {
+  width: 668px;
+  height: 300px;
+  overflow-y: auto;
+  margin: 0 auto;
+  background: yellowgreen;
+}
+.sec-luntan > ul > li {
+  width: 600px;
+  height: 20px;
+  background: pink;
+  line-height: 30px;
+}
+/*# sourceMappingURL=hun-dong.css.map */

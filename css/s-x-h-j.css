@@ -1,0 +1,82 @@
+.se-shixun {
+  width: 684px;
+  min-height: 600px;
+  margin: 0 auto;
+  background: white;
+}
+.se-shixun > div {
+  width: 673px;
+  min-height: 200px;
+  margin: 0 auto;
+}
+.se-shixun > div > p:nth-child(1) {
+  width: 673px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  border-bottom: 1px solid darkgray;
+}
+.se-shixun > div > p:nth-child(2) {
+  width: 673px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 12px;
+}
+.se-shixun > div > ul {
+  width: 673px;
+  min-height: 600px;
+  margin: 0 auto;
+}
+.se-shixun > div > ul > li {
+  width: 222px;
+  height: 200px;
+  float: left;
+}
+.se-shixun > div > ul > li > img {
+  width: 130px;
+  height: 130px;
+  -webkit-box-shadow: 2px 2px 5px black;
+  margin-top: 30px;
+  margin-left: 57px;
+  border-radius: 10px 10px 10px 10px;
+}
+.se-shixun > div > ul > li > p {
+  font-size: 12px;
+  height: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+  text-align: center;
+  line-height: 20px;
+}
+.se-shixun > p {
+  width: 684px;
+  height: 50px;
+  line-height: 50px;
+  margin: 0 auto;
+  background: white;
+}
+.se-shixun > p > a {
+  color: deepskyblue;
+  text-decoration: none;
+  float: right;
+  margin-right: 40px;
+  font-size: 12px;
+}
+.foot-buttom {
+  width: 684px;
+  height: 100px;
+  margin: 0 auto;
+  text-align: center;
+}
+.foot-buttom > p:nth-child(1) {
+  font-size: 12px;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+.foot-buttom > p:nth-child(2) {
+  font-size: 12px;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+/*# sourceMappingURL=s-x-h-j.css.map */
